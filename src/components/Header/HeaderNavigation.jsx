@@ -1,5 +1,6 @@
 import './Header.css'
 import Logo from '../../assets/icons/logo.svg?react';
+import Menu from '../../assets/icons/menu.svg?react';
 import Button from '../Button/Button.jsx';
 
 
@@ -7,7 +8,9 @@ export default function HeaderNavigation (){
     return(
         <nav className="header__navigation">
             <div className="wrapper">
-               <Logo /> 
+                <Menu className="side-bar" />
+
+                <Logo className="edunity-logo" /> 
 
                <menu className="header__navigation__pages">
                     <li><a href="#" className="header__navigation__page">

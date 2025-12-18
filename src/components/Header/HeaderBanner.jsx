@@ -13,7 +13,7 @@ export default function HeaderBanner(){
                 <div className="header__banner__info">
                     <p className="header__banner__work-time-info">
                         <Clock className="header__banner__logo"/>
-                        Working: Monday - Friday, 9:00am - 5:00pm
+                        Working : Monday - Friday, 9:00am - 5:00pm
                     </p>
                     <p className="header__banner__location ">
                         <Location className="header__banner__logo"/>
