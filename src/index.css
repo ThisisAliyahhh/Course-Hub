@@ -1,0 +1,47 @@
+@import url("./assets/reset.css");
+
+:root{
+    --color-white: #FFFFFF;
+    --color-crow-black-blue: #0E2A46;
+    --color-purplish-blue: #674DF0;
+    --color-medium-slate-blue: #7768E5;
+    --color-jadeite: #2FC7A1;
+
+    --text-color: var(--color-white);
+    --primary-text-color: var(--color-crow-black-blue);
+    --secondary-text-color: var(--color-purplish-blue);
+    --accent-text-color: var(--color-jadeite);
+    
+    --primary-bg: var(--color-white);
+    --secondary-bg: var(--color-medium-slate-blue);
+    --accent-bg: var(--color-jadeite);
+    font-size: 10px;
+}
+
+.wrapper{
+    width: 70%;
+    border: 1px solid purple;
+    margin: 0 auto;
+}
+
+
+@media only screen and  (max-width: 992px) {
+  .wrapper {
+    width: 90%;
+    border: 1px solid blue;
+  }
+}
+
+@media only screen and  (max-width: 768px) {
+  .wrapper {
+    /* width: 100%; */
+    border: 1px solid  yellow;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .wrapper {
+    /* width: 100%; */
+    border: 1px solid red;
+  }
+}
