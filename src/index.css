@@ -24,7 +24,7 @@
     --font-small: clamp(1.4rem, 1vw, 1.6rem);
     --font-medium: clamp(1.6rem, 2vw, 2rem);
     --font-large: clamp(2rem, 2.5vw, 2.5rem);
-    --font-heading: clamp(2rem, 2.5vw, 2.5rem);
+    --font-heading: clamp(2.5rem, 3vw, 3.6rem);
 
     --space-xs: 0.5rem;
     --space-sm: 1rem;
@@ -47,7 +47,7 @@
   }
 }
 
-@media only screen and  (max-width: 768px) {
+@media only screen and  (max-width: 992px) {
   .wrapper {
     width: 90%;
   }
