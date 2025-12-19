@@ -13,35 +13,46 @@
     --accent-text-color: var(--color-jadeite);
     
     --primary-bg: var(--color-white);
-    --secondary-bg: var(--color-medium-slate-blue);
-    --accent-bg: var(--color-jadeite);
+    --primary-header-bg: var(--color-white);
+    --secondary-header-bg: var(--color-crow-black-blue);
+    --primary-button-bg: var(--color-medium-slate-blue);
+    --secondary-button-bg: var(--color-jadeite);
+
     font-size: 10px;
+    --font-small: clamp(1.4rem, 1vw, 1.6rem);
+    --font-medium: clamp(1.6rem, 2vw, 2rem);
+    --font-large: clamp(2rem, 2.5vw, 2.5rem);
+    --font-heading: clamp(2rem, 2.5vw, 2.5rem);
+
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+    
 }
 
 .wrapper{
     width: 70%;
-    border: 1px solid purple;
+    height: 100%;
     margin: 0 auto;
 }
 
 
-@media only screen and  (max-width: 992px) {
+@media only screen and  (max-width: 1440px) {
   .wrapper {
     width: 90%;
-    border: 1px solid blue;
   }
 }
 
 @media only screen and  (max-width: 768px) {
   .wrapper {
-    /* width: 100%; */
-    border: 1px solid  yellow;
+    width: 90%;
   }
 }
 
 @media only screen and (max-width: 576px) {
   .wrapper {
-    /* width: 100%; */
-    border: 1px solid red;
+    width: 90%;
   }
 }

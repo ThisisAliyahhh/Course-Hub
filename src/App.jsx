@@ -10,7 +10,6 @@ function App() {
   return (
     <>
       <Header />
-      <Button title="click me" icon="ooo"/>
 
     </>
   );

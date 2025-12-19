@@ -7,10 +7,8 @@ function Header(){
     return(
 
         <header className="header">
-            <div className="wrapper">
-                <HeaderBanner />
-                <HeaderNavigation />
-            </div>
+            <HeaderBanner />
+            <HeaderNavigation />
         </header>
     );
 
