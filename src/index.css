@@ -6,6 +6,7 @@
     --color-purplish-blue: #674DF0;
     --color-medium-slate-blue: #7768E5;
     --color-jadeite: #2FC7A1;
+    --eye-patch: #222222;
 
     --text-color: var(--color-white);
     --primary-text-color: var(--color-crow-black-blue);
@@ -17,6 +18,7 @@
     --secondary-header-bg: var(--color-crow-black-blue);
     --primary-button-bg: var(--color-medium-slate-blue);
     --secondary-button-bg: var(--color-jadeite);
+    --footer-bg: var(--eye-patch);
 
     font-size: 10px;
     --font-small: clamp(1.4rem, 1vw, 1.6rem);

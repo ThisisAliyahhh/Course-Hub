@@ -1,0 +1,10 @@
+.footer__copyright{
+    background: var(--footer-bg);
+    color: var(--text-color);
+    text-align: center;
+    padding: var(--space-md) 0;
+}
+
+.footer__copyright__link{
+    color: var(--accent-text-color);
+}

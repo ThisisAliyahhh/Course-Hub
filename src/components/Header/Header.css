@@ -14,7 +14,7 @@
 }
 
 .header__banner__info{
-    width: 50%;
+    width: 60%;
     display: flex;
     align-items: center;
     gap: 40px;
@@ -116,8 +116,21 @@
 }
 }
 
-/* @media only screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
   .header__banner{
+    width: 100%;
+  }
+
+  .header__banner__info{
+    border: 1px solid red;
+    width: 100%;
+  }
+
+   .header__banner__info p{
+    font-size: 0.7rem;
+    }
+
+  .header__banner__socials{
     display: none;
   }
-} */
+}
