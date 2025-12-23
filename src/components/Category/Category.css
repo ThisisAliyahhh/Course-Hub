@@ -1,0 +1,95 @@
+.category{
+    height: 70vh;
+}
+
+.category .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.category-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12%;
+}
+
+.category-body {
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    align-items: center;
+}
+
+.category-card{
+    /* height: 55%; */
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cartegory-card__text{
+    text-align: center;
+}
+
+.course-name {
+    color: var(--primary-text-color);
+    font-size: var(--font-medium);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.course-number{
+    font-size: 1.4rem;
+    color: var(--secondary-text-color);
+}
+
+@media only screen and  (max-width: 1440px) {
+    .category{
+        height: 80vh;
+    }
+
+    .forword{
+        height: 45px;
+    }
+
+    .category-body {
+        height: 60%;
+    }
+
+    .category-card {
+        height: 55%;
+        max-height: 150px;
+    }
+
+    .category-card__img {
+        width: 70px;
+    }
+
+    .course-name {
+        font-size: var(--font-small);
+    }
+
+    .course-number{
+        font-size: 1rem;
+        color: var(--secondary-text-color);
+    }
+
+}
+
+@media only screen and  (max-width: 992px){ 
+    .category{
+        height: 50vh;
+    }
+
+    .forword{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px){
+
+}
