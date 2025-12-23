@@ -1,4 +1,4 @@
-import "./sectionTitle.css"
+import "./SectionTitle.css"
 
 export default function sectionTitle (props) {
     return (
