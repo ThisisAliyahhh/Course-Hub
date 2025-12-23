@@ -23,7 +23,6 @@
 }
 
 .category-card{
-    /* height: 55%; */
     max-height: 500px;
     display: flex;
     flex-direction: column;
@@ -90,6 +89,28 @@
     }
 }
 
-/* @media only screen and (max-width: 576px){
+@media only screen and (max-width: 576px){
 
-} */
+    .category{
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .category-body {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        justify-content: space-around;
+        height: 50%;
+        align-items: center;
+    }
+
+    .category-card{
+        height: 300px;
+    }
+
+    .category-card:last-child{
+        grid-column: 1/-1;
+        justify-self: center;
+        width: 100%;
+    }
+}
